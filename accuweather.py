@@ -2,7 +2,7 @@ import json
 import time
 import ast
 from six.moves import urllib
-API = 'D0E2WtXZg1W8cytlWE29Q3GAuLX3qxDF'
+API = ''
 
 def get_location(api, pincode):
     url = 'http://dataservice.accuweather.com/locations/v1/postalcodes/search?apikey=%s&q=%s' % (api, pincode)
